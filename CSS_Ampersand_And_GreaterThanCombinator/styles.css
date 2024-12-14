@@ -1,0 +1,39 @@
+.parent {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.subSection {
+    padding: 10px;
+    border: 1px solid #999;
+    margin-top: 10px;
+
+    /* Using & to style nested h3 elements */
+    & h3 {
+        font-size: 1rem;
+        text-transform: none;
+        font-weight: unset;
+        color: blue;
+    }
+
+    /* Using > to style direct child p elements */
+    > p {
+        color: green;
+        font-weight: bold;
+    }
+
+    /* Using & to style hover state of .subSection */
+    &:hover {
+        background-color: lightgray;
+    }
+
+    /* Using & to style .subSection with an additional class */
+    &.highlight {
+        border: 2px solid red;
+    }
+}
+
+/* Additional styles for nested elements */
+.nested p {
+    color: rgb(183, 0, 255);
+}

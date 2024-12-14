@@ -1,0 +1,13 @@
+:local(.localButton) {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.global-button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
